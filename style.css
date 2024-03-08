@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #3B4664;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.CalculatorScreen{
+    width: 536px;
+    height: 143px;
+    background-color: #181F32;
+    border-radius: 12px;
+    padding: 5%;
+}
+
+.CalculatorButton{
+    width: 536px;
+    height: 487px;
+    background-color: #252D44;
+    border-radius: 12px;
+}
+
+.numberKeypad{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.KeyPad{
+    background-color: #EAE3DB;
+    color: #3B4664;
+    width: 21%;
+    height: 15%;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5em;
+
+}
+
+.fifty{
+    width: 47%;
+}
